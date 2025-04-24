@@ -29,7 +29,7 @@ function sendMessage(text) {
     return;
   }
 
-  connectedClient.sendText("5551998704012@c.us", text)
+  connectedClient.sendText("(TELEFONE)@c.us", text)
     .then((result) => console.log('Mensagem enviada:', result))
     .catch((error) => console.error('Erro ao enviar mensagem:', error));
 }
